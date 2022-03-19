@@ -608,24 +608,24 @@ Common breakpoints are:
 
 #toggle {
     display: none;
-  }
+}
 
-  /* Screen > 801px: Hide Hamburger Menu */
-@media (min-width:801px) {
+/* Screen > 801px: Hide Hamburger Menu */
+/* @media (min-width:801px) {
     #mobile-nav {
         display:none
-}
+} */
 
 /* Screen < 800px: Hide Desktop Menu */
-@media (max-width:800px) {
+/* @media (max-width:800px) {
     #desktop-nav {
         display:none
-}
+} */
 
 /**
   Hamburger
 **/
-.hamburger {
+/* .hamburger {
   position: absolute;
   top: 5em;
   left: 8%;
@@ -644,12 +644,12 @@ Common breakpoints are:
   background-color: #2B2C30;
   margin-top: 8px;
   transition: all 0.3s ease-in-out;
-}
+} */
 
 /**
 Nav Styles
 **/
-.navbar {
+/* .navbar {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -693,12 +693,12 @@ nav a:hover {
 }
 nav a:hover:before {
   height: 100%;
-}
+} */
 
 /**
 Animations
 **/
-#toggle:checked + .hamburger .top-bun {
+/* #toggle:checked + .hamburger .top-bun {
   transform: rotate(-45deg);
   margin-top: 25px;
 }
@@ -715,4 +715,4 @@ Animations
   top: 0;
   transform: scale(1);
 }
-}
+} */

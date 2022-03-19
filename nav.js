@@ -61,6 +61,7 @@ class Nav extends HTMLElement {
 
     <!--- Mobile Nav --->
 
+    <!--
     <div class="nav" id="mobile-nav">
 
         <div class="nav-wrapper">
@@ -84,6 +85,7 @@ class Nav extends HTMLElement {
         </div>
 
     </div>
+    -->
                   
         `;
     }
