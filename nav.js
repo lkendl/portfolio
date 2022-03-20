@@ -32,27 +32,30 @@ class Nav extends HTMLElement {
 
     <nav class="navbar" id="desktop-nav">
 
-        <div class="logo-txt"><a href="/web-330/portfolio/" id="logo-link">Laura Kendl</a></div>
+        <div class="logo-txt"><a href="https://lkendl.github.io/portfolio/" id="logo-link">Laura Kendl</a></div>
 
         <div class="navbar-nav-wrapper">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="https://lkendl.github.io/portfolio/">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="https://lkendl.github.io/portfolio/about.html">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="resume.html">Resume</a>
+                <a class="nav-link" href="https://lkendl.github.io/portfolio/resume.html">Resume</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="projects.html">Projects</a>
+                <a class="nav-link" href="https://lkendl.github.io/portfolio/projects.html">Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="diagrams.html">Database Diagrams</a>
+                <a class="nav-link" href="https://lkendl.github.io/portfolio/web-335/kendl-diagrams.html">WEB-335 Diagrams</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="api-unit-tests.html">API Unit Tests</a>
+                <a class="nav-link" href="https://lkendl.github.io/portfolio/diagrams.html">Database Diagrams</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://lkendl.github.io/portfolio/api-unit-tests.html">API Unit Tests</a>
             </li>
         </ul>
         </div>

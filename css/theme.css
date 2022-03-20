@@ -53,6 +53,9 @@ body.default-theme {
     --btn-hover-color: #FFF;
     --btn-border-color: #FE0535;
 
+    --next-hover-color: #FE0535;
+    --close-button-color: #BDCFD7;
+
     --nav-background-color: #FFF;
     --nav-link-color: #fe0535;
     --logo-txt-color: #FFF;
@@ -553,6 +556,163 @@ footer {
 #icon-mode:hover {
     cursor: pointer;
 }
+
+/** Page Specific Styling: Kendl Diagrams (WEB-335) */
+
+.row > .column {
+    padding: 0 8px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* Create four equal columns that floats next to each other */
+  /* .gallery-column {
+    float: left;
+    width: 25%;
+  } */
+  
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+
+  .gallery {
+    padding: 15px;
+    text-align: center;
+    
+  }
+  /* Gallery Item Thumbnail */
+  .gallery-item-thumbnail {
+      max-width: 90%;
+  }
+
+  /* Gallery Item Popup */
+  gallery-item-popup {
+    width: auto;
+    text-align: center;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    /* background-color: #fefefe; */
+    background: linear-gradient(to bottom, rgb(255, 255, 255, 0.9) 5%, rgba(255, 255, 255, .6) 100%), url("../img/mountain-back.jpg") no-repeat center center fixed;
+    margin: auto;
+    padding: 0;
+    width: auto;
+    max-width: 1200px;
+    text-align: center;
+
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: var(--close-button-color);
+    text-decoration: none;
+    cursor: pointer;
+    transform:scale(200%);
+  }
+  
+  /* Hide the slides by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* Position the "previous button" to the left */
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }  
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: var(--next-hover-color);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Caption text */
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  img.demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+
 
 /** Responsive Changes */
 
