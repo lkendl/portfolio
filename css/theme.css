@@ -53,7 +53,8 @@ body.default-theme {
     --btn-hover-color: #FFF;
     --btn-border-color: #FE0535;
 
-    --next-hover-color: #FE0535;
+    --next-background-color: #000;
+    --next-hover-background-color: #FE0535;
     --close-button-color: #BDCFD7;
 
     --nav-background-color: #FFF;
@@ -651,6 +652,7 @@ footer {
     padding: 16px;
     margin-top: -50px;
     color: white;
+    background-color: var(--next-background-color);
     font-weight: bold;
     font-size: 20px;
     transition: 0.6s ease;
@@ -674,7 +676,7 @@ footer {
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover,
   .next:hover {
-    background-color: var(--next-hover-color);
+    background-color: var(--next-hover-background-color);
   }
   
   /* Number text (1/3 etc) */
