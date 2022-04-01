@@ -330,7 +330,7 @@ h5 {
     background: var(--card-background-color);
     min-height: 300px;
     min-width: 250px; 
-    margin-bottom: 15px;
+    margin: 10px;
 }
 
 .main-card {
