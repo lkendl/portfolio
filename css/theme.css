@@ -609,10 +609,11 @@ footer {
   }
 
   /* Gallery Item Popup */
-  gallery-item-popup {
-    width: auto;
+  .gallery-item-popup {
+    max-width: 100%;
     text-align: center;
   }
+
   
   /* Modal Content */
   .modal-content {
