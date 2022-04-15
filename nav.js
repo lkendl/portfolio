@@ -37,19 +37,19 @@ class Nav extends HTMLElement {
         <div class="navbar-nav-wrapper">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="../index.html">Home</a>
+                <a class="nav-link" href="../portfolio/index.html">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../about.html">About</a>
+                <a class="nav-link" href="../portfolio/about.html">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../projects.html">Projects</a>
+                <a class="nav-link" href="../portfolio/projects.html">Projects</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/web-335/kendl-diagrams.html">Database Diagrams</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../api-unit-tests.html">API Unit Tests</a>
+                <a class="nav-link" href="../portfolio/api-unit-tests.html">API Unit Tests</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="../resume.html">Resume</a>
