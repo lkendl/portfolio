@@ -690,11 +690,17 @@ footer {
   
   /* Number text (1/3 etc) */
   .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
+    color: #000;
+    background: rgb(189, 207, 215, .9);
+    border-radius: 25px;
     padding: 8px 12px;
     position: absolute;
+    font-family: 'Handlee', Verdana, Arial, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 800;
     top: 0;
+    margin: 5px;
   }
   
   /* Caption text */
