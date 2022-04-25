@@ -518,6 +518,10 @@ footer {
 
 /** Page Specific Styling: Resume */
 
+.resume-content {
+    padding: 0px 20px 20px;
+}
+
 #qual-list {
     font-size: .90em;
     font-weight: bold;
