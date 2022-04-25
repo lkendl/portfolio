@@ -350,7 +350,26 @@ h5 {
 }
 
 .card-content {
+    padding: 0px 20px 20px;
+    text-align: center;
+}
+
+.card-content-link {
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: auto;
+    color: var(--nav-link-color);
+    text-align: center;
     padding: 10px;
+    display: block;
+}
+
+.card-content-link:hover {
+    text-decoration: underline;
 }
 
 .card-link {
@@ -599,7 +618,7 @@ footer {
   }
 
   .gallery {
-    padding: 15px;
+    padding: 10px 10px 0px;
     text-align: center;
     
   }
