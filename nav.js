@@ -32,7 +32,7 @@ class Nav extends HTMLElement {
 
     <nav class="navbar" id="desktop-nav">
 
-        <div class="logo-txt"><a href="index.html" id="logo-link">Laura Kendl</a></div>
+        <div class="logo-txt"><a href="../../portfolio/index.html" id="logo-link">Laura Kendl</a></div>
 
         <div class="navbar-nav-wrapper">
         <ul class="navbar-nav">
