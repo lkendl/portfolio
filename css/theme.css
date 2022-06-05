@@ -58,7 +58,7 @@ body.default-theme {
     --close-button-color: #BDCFD7;
 
     --primary-color: #2B2C30;
-    --overlay-color: rgb(43, 44, 48, .9);
+    --overlay-color: rgb(0, 0, 0, .9);
     --menu-speed: 0.75s;
 
     --nav-background-color: #FFF;
