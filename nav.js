@@ -20,15 +20,7 @@ class Nav extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
               
-        <input id="toggle" type="checkbox"></input>
-
-        <label for="toggle" class="hamburger">
-          <div class="top-bun"></div>
-          <div class="meat"></div>
-          <div class="bottom-bun"></div>
-        </label>
-
-        <!--- Desktop Nav --->
+    <!--- Desktop Nav --->
 
     <nav class="navbar" id="desktop-nav">
 
@@ -64,31 +56,52 @@ class Nav extends HTMLElement {
 
     <!--- Mobile Nav --->
 
-    <!--
-    <div class="nav" id="mobile-nav">
+   
+    <div id="mobile-nav">
 
-        <div class="nav-wrapper">
+    <div class="logo-txt-nav"><a href="../../portfolio/index.html" id="logo-link">Laura Kendl</a></div>
         
-        <nav>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
         
-        <a href="index.html">Home</a>
-      
-        <a href="about.html">About</a>
-         
-        <a href="resume.html">Resume</a>
-       
-        <a href="projects.html">Projects</a>
-          
-        <a class="nav-link" href="diagrams.html">Database Diagrams</a>
+        <ul>
+            <li class="nav-item active">
+                <a class="nav-link" href="../../portfolio/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../../portfolio/about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../../portfolio/projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../../portfolio/web-335/kendl-diagrams.html">Database Diagrams</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../../portfolio/api-unit-tests.html">API Unit Tests</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../../portfolio/devops-presentations.html">DevOps Presentations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../../portfolio/resume.html">Resume</a>
+            </li>
+        </ul>
         
-        <a href="api-unit-tests.html">API Unit Tests</a>
+    </div>
+
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         
-        </nav>
+        <i class="fa fa-bars"></i>
+        
+        </a>
 
         </div>
 
     </div>
-    -->
+   
                   
         `;
     }
