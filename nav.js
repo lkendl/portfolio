@@ -9,6 +9,7 @@
 ; prototype of my personal portfolio project.
 ; Resources:
 ; Blackboard: Code provided by Professor Krasso in WEB330 Assignment 5.3 Outline
+; Codepen: https://codepen.io/bradtraversy/pen/vMGBjQ (Pure CSS Hamburger Menu & Overlay)
 ===========================================
 */
 
