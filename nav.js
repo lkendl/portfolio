@@ -20,11 +20,11 @@ class Nav extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
               
-    <!--- Desktop Nav --->
+    <!-- Desktop Nav -->
 
     <nav class="navbar" id="desktop-nav">
 
-        <div class="logo-txt"><a href="../../portfolio/index.html" id="logo-link">Laura Kendl</a></div>
+        <div class="logo-txt"><a href="../../portfolio/index.html" class="logo-link">Laura Kendl</a></div>
 
         <div class="navbar-nav-wrapper">
         <ul class="navbar-nav">
@@ -54,58 +54,48 @@ class Nav extends HTMLElement {
 
     </nav>
 
-    <!--- Mobile Nav --->
+    <!-- Mobile Nav -->
 
-   
-    <div id="mobile-nav">
-
-    <div class="logo-txt-nav"><a href="../../portfolio/index.html" id="logo-link">Laura Kendl</a></div>
-        
-    <!-- Navigation links (hidden by default) -->
-    <div id="myLinks">
-        
-        <ul>
-            <li class="nav-item active">
-                <a class="nav-link" href="../../portfolio/index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../../portfolio/about.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../../portfolio/projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../../portfolio/web-335/kendl-diagrams.html">Database Diagrams</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../../portfolio/api-unit-tests.html">API Unit Tests</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../../portfolio/devops-presentations.html">DevOps Presentations</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../../portfolio/resume.html">Resume</a>
-            </li>
-        </ul>
-        
-    </div>
-
-        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        
-        <i class="fa fa-bars"></i>
-        
-        </a>
-
+    <div class="menu-wrap">
+        <div class="logo-txt-nav"><a href="../../portfolio/index.html" class="logo-link">Laura Kendl</a></div>
+        <input type="checkbox" class="toggler">
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+          <div>
+            <div>            
+            <ul>
+                <li>
+                    <a class="nav-link" href="../../portfolio/index.html">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="../../portfolio/about.html">About</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="../../portfolio/projects.html">Projects</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="../../portfolio/web-335/kendl-diagrams.html">Database Diagrams</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="../../portfolio/api-unit-tests.html">API Unit Tests</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="../../portfolio/devops-presentations.html">DevOps Presentations</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="../../portfolio/resume.html">Resume</a>
+                </li>
+            </ul>
+            
         </div>
-
     </div>
-   
+  </div>
+</div>
                   
         `;
     }
+
 }
 
-customElements.define("nav-component", Nav);
 
+customElements.define("nav-component", Nav);

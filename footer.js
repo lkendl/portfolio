@@ -38,8 +38,7 @@ class Footer extends HTMLElement {
     
         </div>
         </footer>
-    </body>
-</html>
+   
         `;
     }
 }
