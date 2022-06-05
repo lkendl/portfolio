@@ -52,7 +52,7 @@ class Nav extends HTMLElement {
                 <a class="nav-link" href="../../portfolio/api-unit-tests.html">API Unit Tests</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../../portfolio/web-430/kendl-tech-value-stream.html">Presentations</a>
+                <a class="nav-link" href="../../portfolio/devops-presentations.html">DevOps Presentations</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="../../portfolio/resume.html">Resume</a>
