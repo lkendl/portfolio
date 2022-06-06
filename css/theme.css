@@ -193,6 +193,7 @@ li {
     text-align: center;
     color: var(--content-title-1-color);
     font-size: 36px;
+    margin-bottom: 5px;
 }
 
 .content-block-2 {
@@ -569,7 +570,6 @@ footer {
     font-size: 1.5em;
     font-weight: 400;
     letter-spacing: -1px;
-    margin-top: -20px;
 }
 
 .status {
