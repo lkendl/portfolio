@@ -105,7 +105,6 @@ body {
 .main {
     max-width: 1000px;
     margin: auto auto;
-    /* margin-top: 150px; */
     min-height: 100vh;
     margin-bottom: 6rem;
 }
@@ -815,8 +814,6 @@ footer {
   }
 
 
-
-
 /** Responsive Changes */
 
 /** Note:
@@ -847,9 +844,17 @@ Common breakpoints are:
 }
 
 /* Screen < 601px: Less space around main DIV */
-@media (max-width:1000px) {
+@media (max-width: 601px) {
     .main {
         margin-top: 75px;
+    }
+}
+
+/*  601 > Screen < 1001px: Less space around main DIV */
+@media (min-width: 601px) and (max-width: 1000px) {
+    .main {
+        margin-top: 75px;
+        width: 80%;
     }
 }
 
@@ -868,14 +873,14 @@ Common breakpoints are:
 }
 
 /* Screen > 801px: Hide Hamburger Menu */
-@media (min-width:1001px) {
+@media (min-width: 1001px) {
     .menu-wrap {
         display:none;
     }
 }
 
 /* Screen < 800px: Hide Desktop Menu */
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
     #desktop-nav {
         display:none;
     }
