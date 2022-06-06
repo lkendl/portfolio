@@ -887,7 +887,7 @@ Common breakpoints are:
 @media (max-width: 601px) {
     .main {
         margin-top: 75px;
-        min-height: 82vh;
+        min-height: 84vh;
     }
 }
 
@@ -896,7 +896,7 @@ Common breakpoints are:
     .main {
         margin-top: 75px;
         width: 80%;
-        min-height: 85vh;
+        min-height: 84vh;
     }
 }
 
