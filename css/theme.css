@@ -155,6 +155,10 @@ a:hover {
     background: var(--anchor-hover-background-color);
 }
 
+li {
+    padding: 5px;
+}
+
 /** Content Block Styling */
 
 .content-1, .content-2 {
@@ -494,12 +498,9 @@ tr:hover {
 /** Footer Styling */
 
 footer {
-    height: 100px;
     color: var(--footer-color);
     text-align: center;
     background-color: var(--footer-background-color);
-    width: 100%;
-    margin-top: 100px;
 }
 
 .footer-link-wrapper {
@@ -573,12 +574,27 @@ footer {
     margin-bottom: 0px;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-    grid-gap: 20px;
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
 }
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    margin: -15px;
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .flex-column {
+      flex: 100%;
+    }
+  }
 
 /** Page Specific Styling: About */
 
@@ -793,10 +809,7 @@ Common breakpoints are:
 /* Screen < 1024px: Keep footer on bottom */
 @media (max-width: 1024px) {
     footer {
-        position: relative;
-        left: 0;
-        bottom: 0;
-        padding-top: 2px;
+        margin: -8px;
     }
 }
 
@@ -807,6 +820,7 @@ Common breakpoints are:
         left: 0;
         bottom: 0;
         padding-top: 10px;
+        width: 100vw;
     }
 }
 

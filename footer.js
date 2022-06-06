@@ -19,7 +19,6 @@ class Footer extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-        <div id="footer">
         <footer>
 
             <div class="footer-link-wrapper">
@@ -36,7 +35,6 @@ class Footer extends HTMLElement {
     
             <div id="copyright"><br />&copy; 2022 Kendl </div>
     
-        </div>
         </footer>
    
         `;
