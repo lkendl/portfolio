@@ -58,7 +58,8 @@ body.default-theme {
     --close-button-color: #BDCFD7;
 
     --primary-color: #2B2C30;
-    --overlay-color: rgb(0, 0, 0, .9);
+    --secondary-color: #BDCFD7;
+    --overlay-color: rgb(0, 0, 0, .95);
     --menu-speed: 0.75s;
 
     --nav-background-color: #FFF;
@@ -897,7 +898,7 @@ Common breakpoints are:
     align-items: center;
     justify-content: center;
   }
-  
+
   /* Hamburger Line */
   .menu-wrap .hamburger > div {
     position: relative;
@@ -977,7 +978,7 @@ Common breakpoints are:
     background: var(--overlay-color);
     border-radius: 50%;
     width: 200vw;
-    height: 200vw;
+    height: 300vw;
     display: flex;
     flex: none;
     align-items: center;
@@ -999,6 +1000,7 @@ Common breakpoints are:
     color: #fff;
     font-size: 1.5rem;
     padding: 1rem;
+    margin-left: -30px;
   }
   
   .menu-wrap .menu > div > div > ul > li > a {
