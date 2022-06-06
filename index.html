@@ -26,7 +26,7 @@
         <!-- External Stylesheets -->
         <link rel="stylesheet" href="./css/theme.css">
         <link rel="stylesheet" href="./css/theme-library.css">
-        <!-- <link rel="stylesheet" href="./css/flex-layout.css"> -->
+        <!-- <link rel="stylesheet" href="./css/flex-layout.css"> -->        
         
         <script src="./footer.js"></script>
         <script src="./nav.js"></script>
@@ -60,38 +60,68 @@
             
             <hr />
             
-            <h3>Bucket List</h3>
-        
-            <div class="flex-row">
-                <div class="flex-column">
-                    <ul>
-                        <li>Own My Own Business</li>
-                        <li>Homestead</li>
-                        <li>Travel to Singapore</li>
-                    </ul>
+            <button class="accordion">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bucket" viewBox="0 0 16 16">
+                    <path d="M2.522 5H2a.5.5 0 0 0-.494.574l1.372 9.149A1.5 1.5 0 0 0 4.36 16h7.278a1.5 1.5 0 0 0 1.483-1.277l1.373-9.149A.5.5 0 0 0 14 5h-.522A5.5 5.5 0 0 0 2.522 5zm1.005 0a4.5 4.5 0 0 1 8.945 0H3.527zm9.892 1-1.286 8.574a.5.5 0 0 1-.494.426H4.36a.5.5 0 0 1-.494-.426L2.58 6h10.838z"/>
+                </svg>
+
+            </button>
+
+            <div class="panel">
+                <div class="flex-row" id="bucket-title-wrapper">
+                    <div class="flex-column">
+                        <br />
+                        <h3 id="bucket-title">My Bucket List</h3>
+                        </div>
+                        </div>
+                        <div class="flex-row">
+                            <div class="flex-column">
+                        <ul>
+                            <li>Own My Own Business</li>
+                            <li>Homestead</li>
+                            <li>Travel to Singapore</li>
+                        </ul>
+                    </div>
+                    <div class="flex-column">
+                        <ul>
+                            <li>Travel to Japan</li>
+                            <li>Travel to New Zealand</li>
+                            <li>Become Fluent in Mandarin</li> 
+                        </ul>
+                    </div>
+                    <div class="flex-column">
+                        <ul>
+                            <li>Own a Camper</li>
+                            <li>Actually Patent One of My 1,234,234 Ideas</>
+                            <li>Create a Video Game</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="flex-column">
-                    <ul>
-                        <li>Travel to Japan</li>
-                        <li>Travel to New Zealand</li>
-                        <li>Become Fluent in Mandarin</li> 
-                    </ul>
-                </div>
-                <div class="flex-column">
-                    <ul>
-                        <li>Own a Camper</li>
-                        <li>Actually Patent One of My 1,234,234 Ideas</>
-                        <li>Create a Video Game</li>
-                    </ul>
-                </div>
-            </div>
-      
+            </div>      
         </div>
         </div>
 
     </div>
 
 <footer-component></footer-component>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
 
 </body>
 </html>

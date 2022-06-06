@@ -105,8 +105,6 @@ body {
 .main {
     max-width: 1000px;
     margin: auto auto;
-    min-height: 100vh;
-    margin-bottom: 6rem;
 }
 
 /** Font Styling */
@@ -350,6 +348,46 @@ h5 {
     text-align: center;
 }
 
+.accordion {
+    background-color: #FFF;
+    color: #444;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+  }
+  
+  .accordion:hover {
+    background-color: rgb(189, 207, 215, 0.5); 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+
+.bi-bucket {
+    width: 10%;
+    height: 10%;
+    max-width: 40px;
+    padding: 10px;
+}
+
+#bucket-title-wrapper {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+
 /** Card Styling */
 
 .card {
@@ -539,6 +577,7 @@ footer {
     font-size: 14px;   
     margin-top: -13px;
     margin-left: -13px;
+    font-weight: 100;
 }
 
 /** Page Specific Styling: Resume */
@@ -579,6 +618,8 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-column {
@@ -586,8 +627,7 @@ footer {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-    margin: -15px;
-    
+    margin: -15px;    
 }
 
 @media screen and (max-width: 1000px) {
@@ -847,6 +887,7 @@ Common breakpoints are:
 @media (max-width: 601px) {
     .main {
         margin-top: 75px;
+        min-height: 82vh;
     }
 }
 
@@ -855,6 +896,7 @@ Common breakpoints are:
     .main {
         margin-top: 75px;
         width: 80%;
+        min-height: 85vh;
     }
 }
 
@@ -862,6 +904,8 @@ Common breakpoints are:
 @media (min-width: 1001px) {
     .main {
         margin-top: 150px;
+        min-height: 100vh;
+        margin-bottom: 125px;
     }
 }
 
