@@ -578,6 +578,12 @@ footer {
     margin-top: -13px;
     margin-left: -13px;
     font-weight: 100;
+    text-align: center;
+    line-height: 3;
+}
+
+.bi-caret-down {
+    float: right!important;
 }
 
 /** Page Specific Styling: Resume */
