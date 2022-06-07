@@ -1,7 +1,7 @@
 /*
 ============================================
 ; Title: Assignment 5.3
-; File Name: header.js
+; File Name: nav.js
 ; Author: Professor Krasso 
 ; Date: 3 February 2022
 ; Modified By: Laura Kendl
