@@ -229,7 +229,8 @@ a:hover {
     margin-left: -5px;   
     position: fixed;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;   
+    transition: 0.3s;
+    z-index: 999;   
 }
 
 .navbar-nav-wrapper {
@@ -360,16 +361,16 @@ h5 {
     margin: auto auto;
   }
   
-  .accordion:hover {
+.accordion:hover {
     background-color: rgb(189, 207, 215, 0.5); 
-  }
-  
-  .panel {
+}
+
+.panel {
     padding: 0 18px;
     display: none;
     background-color: white;
     overflow: hidden;
-  }
+}
 
 .bi-bucket {
     width: 10%;
