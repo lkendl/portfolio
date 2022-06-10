@@ -378,6 +378,10 @@ h5 {
     padding: 10px;
 }
 
+.bi {
+    font-size: min(6vw, 36px);
+}
+
 #bucket-title-wrapper {
     text-align: center;
     margin-bottom: 15px;
