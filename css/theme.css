@@ -756,14 +756,14 @@ footer {
     clear: both;
 }
   
-  /* Create four equal columns that floats next to each other */
-  /* .gallery-column {
-    float: left;
-    width: 25%;
-  } */
-  
-  /* The Modal (background) */
-  .modal {
+/* Create four equal columns that floats next to each other */
+/* .gallery-column {
+float: left;
+width: 25%;
+} */
+
+/* The Modal (background) */
+.modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -774,26 +774,38 @@ footer {
     height: 100%;
     overflow: auto;
     background-color: black;
-  }
+}
 
-  .gallery {
+.gallery {
     padding: 10px 10px 0px;
     text-align: center;
     border-bottom: #DDD 1px solid;
     padding: 15px;
-    
-  }
-  /* Gallery Item Thumbnail */
-  .gallery-item-thumbnail {
-      max-width: 90%;
-  }
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
 
-  /* Gallery Item Popup */
-  .gallery-item-popup {
+.gallery img {
+   object-fit: cover;
+}
+
+/* Gallery Item Thumbnail */
+.gallery-item-thumbnail {
+    max-width: 90%;
+}
+
+/* Gallery Item Popup */
+.gallery-item-popup {
     max-width: 100%;
     text-align: center;
-  }
+}
 
+.presentation-img {
+    height: 100%;
+    width: 100%;
+}
   
   /* Modal Content */
   .modal-content {
