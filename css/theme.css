@@ -706,6 +706,7 @@ footer {
   filter: grayscale(10%); */
   background: none;
   opacity: 100%;
+  transition: 0.6s ease;
 }
 
 .project-title {
