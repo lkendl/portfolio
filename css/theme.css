@@ -408,10 +408,10 @@ h5 {
     text-align: center;
     font-family: 'Luckiest Guy', Verdana, Arial, sans-serif;
     text-transform: uppercase;
-    font-size: 1.40em;
+    font-size: 1.1em;
     color: var(--card-title-color);
     background-color: var(--card-title-background-color);
-    font-weight: 300;
+    font-weight: 600;
     padding: 10px;
 }
 
@@ -577,7 +577,7 @@ footer {
 
 .footer-link {
     font-family: 'Roboto',  Verdana, Arial, sans-serif;
-    font-size: .8em;
+    font-size: .75em;
     font-weight: bold;
     letter-spacing: -1px;
     text-decoration: none;
@@ -717,6 +717,8 @@ footer {
     background-color: var(--btn-background-color);
     width: 100%;
 }
+
+
 
 /** Page Specific Styling: About */
 
