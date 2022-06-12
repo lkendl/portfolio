@@ -811,6 +811,17 @@ width: 25%;
     text-align: center;
 }
 
+.presentation {
+    padding: 10px 10px 0px;
+    text-align: center;
+    border-bottom: #DDD 1px solid;
+    padding: 15px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
 .presentation-img {
     height: 100%;
     width: 100%;
