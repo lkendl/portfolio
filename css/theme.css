@@ -725,7 +725,8 @@ footer {
 /** Page Specific Styling: About */
 
 #img-about-container {
-    height: fit-content !important;
+    /* height: fit-content !important; */
+    /* width: 75%; */
 }
 
 #img-about {
@@ -799,7 +800,8 @@ width: 25%;
 }
 
 .gallery img {
-   object-fit: cover;
+   /* object-fit: cover; */
+   max-width: 100%;
 }
 
 /* Gallery Item Thumbnail */
