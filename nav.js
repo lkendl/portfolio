@@ -1,14 +1,12 @@
 /*
 ============================================
-; Title: Assignment 5.3
+; Title: Laura Kendl - Nav.js
 ; File Name: nav.js
 ; Author: Professor Krasso 
 ; Date: 3 February 2022
 ; Modified By: Laura Kendl
-; Description: Demonstrates how to build and end-to-end functional
-; prototype of my personal portfolio project.
+; Description: Personal portfolio includes projects, diagrams, and resume.
 ; Resources:
-; Blackboard: Code provided by Professor Krasso in WEB330 Assignment 5.3 Outline
 ; Codepen: https://codepen.io/bradtraversy/pen/vMGBjQ (Pure CSS Hamburger Menu & Overlay)
 ===========================================
 */
